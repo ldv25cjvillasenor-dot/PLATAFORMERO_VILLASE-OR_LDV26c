@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: mouse transfonrm detector
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"divide","value":{"x":5.0,"y":5.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Mousde
+      position","summary":null,"pan":{"x":242.0,"y":49.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-311.0,"y":-83.0},"guid":"e5c8424b-a6ed-4141-bb67-3ad60d579088","$version":"A","$type":"Unity.VisualScripting.Update","$id":"10"},{"member":{"name":"mousePosition","parameterTypes":null,"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{},"position":{"x":-378.0,"y":86.0},"guid":"0c897152-bf0d-4308-a202-a72e01eff6d7","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"12"},{"kind":"Scene","defaultValues":{"name":{"$content":"Mouse
+      location","$type":"System.String"}},"position":{"x":24.0,"y":-71.0},"guid":"9b8f979f-eb6a-4a85-a89a-cc86d08b8e3c","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"15"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":472.0,"y":-76.0},"guid":"336bfdb0-0b03-46e4-b3e2-39664ca4495a","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"17"},{"defaultValues":{"dividend":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"divisor":{"x":2.0,"y":2.0,"$type":"UnityEngine.Vector2"}},"position":{"x":-162.0,"y":78.0},"guid":"8e410153-d30d-466c-a6db-563de5e1b6cd","$version":"A","$type":"Unity.VisualScripting.Vector2Divide","$id":"20"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"divide","$type":"System.String"}},"position":{"x":-345.0,"y":216.0},"guid":"3712d313-8dfa-449a-a54b-3d95fe7a339d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"22"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"22374ff0-5e40-4103-8789-c458ab2708a6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"assigned","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"9eccb5cd-1033-4761-b6b2-36aca787fd0f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"quotient","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"9d06ee23-468a-46ff-97ce-037863205f45","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"dividend","guid":"53b6fa7f-5577-4e32-8319-9bcbaa96a0f4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"divisor","guid":"6720e9d7-7040-4f0f-b26e-e9bf81116705","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"f491d1e3-a7f1-4624-b03b-8707d4a5c594","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

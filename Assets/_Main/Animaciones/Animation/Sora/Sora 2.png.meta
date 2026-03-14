@@ -1,0 +1,3581 @@
+fileFormatVersion: 2
+guid: 52720d5a9a7ce1f4092de52879af1aec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sora 2_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2751
+        width: 93
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4384a95f8502b4ab8026a69976470f
+      internalID: -1114220616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2616
+        width: 465
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf9f787b01d8414e87a2a1e0574ccb4
+      internalID: -1342149633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2616
+        width: 92
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575a7684215a704da69d6b88a050771
+      internalID: 583719519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2616
+        width: 95
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95f4a883b196c64ea1f8843fafbb099
+      internalID: 845464709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2616
+        width: 85
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c40ef12dbaf73444b5097660de55a7d
+      internalID: 1510368834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2704
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4dc4bd0f3283a4480125f190c28a8b
+      internalID: 1285558225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2616
+        width: 89
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bdda5553f940b48b71a051f08ad6ce
+      internalID: 450214550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2616
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7080ec704ec7496418af26ea4b09c75d
+      internalID: -1280227778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_8
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2616
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e467a52a03669a47a02050b310826f2
+      internalID: -1799633480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_9
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2616
+        width: 342
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455f08a30b457484ea0c96e20b6ff25a
+      internalID: -469000974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2662
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e82f7258b2c54ebb9b5e1a9b5cbc1
+      internalID: -839254991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2652
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3efd95d2ccd6440ad863910e05dbf6
+      internalID: -1055796487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2455
+        width: 82
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7947a44b821bf441b024fb365bb12ab
+      internalID: -1230290877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2562
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2abcb3e4d33c545bfb35be8de84ca8
+      internalID: 187763762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2305
+        width: 186
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cc96abb9a6c98438ec25954d324ce1
+      internalID: -313080952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2305
+        width: 92
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1af3ebbda30c443b75236e9ad39656
+      internalID: -2026373298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2487
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f58b4989f41fc344a93be9ac3571909
+      internalID: -2116095904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2300
+        width: 72
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6596c2973b50bd0478e978e86fe05a6d
+      internalID: 1521798976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_18
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2297
+        width: 81
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8a95076e186dd49ae039bc3a5726c9
+      internalID: 1104708627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_19
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2304
+        width: 200
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed30293a2ad8f7489349d4e11b86519
+      internalID: 1307880441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_20
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 2381
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545c8f93e21af0b4ab01c076616be8c5
+      internalID: -387874541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_21
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2297
+        width: 82
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965696f8767264a43a92c3ef9fd81717
+      internalID: 1715412716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_22
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2373
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631a62611afe48146b3083ec4ca2a1b5
+      internalID: -130308827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2351
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48e3dc2b0c72654baaaef369af2c795
+      internalID: -152390941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_24
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00d6242a708cf46ba3ad132d6bbda8
+      internalID: 1016522146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2347
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceb91747ed877e49b3ca7eab6e6fd0f
+      internalID: 1820962624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2291
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cfb832aca7ea049977f2883fc97089
+      internalID: 1999330490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_27
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 2300
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5934cc10ce89e44489037f301f96c358
+      internalID: -1753456452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_28
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 2297
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34a41f1348deef448ac8c10e09a97d4
+      internalID: -876551467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2166
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c758dbbc581a3114d8766c46f41c76bd
+      internalID: -1705572457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2240
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b79e7b93553bcd439df5839f68bb3d0
+      internalID: 1278530342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2160
+        width: 118
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ad7a70b1879e843adb6a324228c150
+      internalID: 1390328143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_32
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2166
+        width: 115
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6fad5f099fc242a6aa778a072ec9f
+      internalID: -1861128312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_33
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2166
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388f44b7a9ac12a4f86361256ef6d819
+      internalID: 1631710072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2165
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc84eb5cd89d3f459406fba53c183a4
+      internalID: -537545508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_35
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2159
+        width: 115
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1343b95d6cd66c429a506fa39aed92c
+      internalID: -1369454963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_36
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2166
+        width: 128
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61a100b32da9b74aaac74c5b22028aa
+      internalID: -670229419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_37
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 2162
+        width: 109
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94590bae724df1b459e0fce6103f754f
+      internalID: 216317170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_38
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2188
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063b4f241f0ed4b459d0a2b16a11ff9c
+      internalID: -499459186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_39
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2169
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbbabad3416b8346896dce69e641472
+      internalID: -651612267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_40
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2159
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11514337d993e04998851530ae10aa0
+      internalID: 1099055758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_41
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2158
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87680511a3124a841b7c618a293f0866
+      internalID: 769176733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2159
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27aa747098c5244ca4f6353887b846d
+      internalID: -96337998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090a749ed64e0c341ae2970d4da587ca
+      internalID: 1127061260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_44
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2158
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f071717a63bdc469f0ef98fab40cbf
+      internalID: 580814686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1966
+        width: 113
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b593d21203706d24086d074dc4a77a96
+      internalID: -52869429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1966
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbb1e56272c990499c55d1679d31221
+      internalID: 498190989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_47
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1966
+        width: 146
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b73b0fbba8858438b82053c97f2a3d
+      internalID: -497086570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_48
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1966
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7c014ede17b6342b40dc885eba8711
+      internalID: 1606158016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_49
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1966
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92329708e02da7f47ad1f3c8b0866bde
+      internalID: -1405977197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_50
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2053
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc767ae010b320a44afd65976479dee7
+      internalID: -1103588550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_51
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1966
+        width: 132
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44225478b40f1e4ea744872fc8adde4
+      internalID: 1244513070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_52
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1966
+        width: 150
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00292069135ec224cb49e25dbe0884b0
+      internalID: -60312026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_53
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1966
+        width: 102
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179104a3ac42387459071c5ebe14fa5e
+      internalID: -1129109011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_54
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2035
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d936a4a7f5352e429b7f6d89d5c1ea3
+      internalID: -402288700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_55
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2023
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47668e1717ac71f48af02bc65c1bc71a
+      internalID: 100979232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2012
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd25112ece5a42e47aaa1c1a36addb1a
+      internalID: -1918002585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_57
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1996
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ea0a193c89f2b4bb9976616d8fe7fd
+      internalID: -149306077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_58
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1982
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c5efcbaf9c56847ba33e1d51afd2a7
+      internalID: 309663618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1791
+        width: 118
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6dfbe4399bf90448ba277d5c31605f
+      internalID: -1870693848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_60
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1791
+        width: 150
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a42d313ea58c4b95da3bd82243194
+      internalID: 829071691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_61
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1791
+        width: 132
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf0928864dec51498b7f82fd279e7f1
+      internalID: -100231870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_62
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1878
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d30244d7e95fcc46ad54f10de109946
+      internalID: 1099345641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_63
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1791
+        width: 97
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b810f8e10cd5545b41ab65e84a08c0
+      internalID: 1857698428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_64
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1791
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3463aa18852050a4cb75cd663fc6d15a
+      internalID: -1715589840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_65
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1791
+        width: 146
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917af2c9f6d7edb4abf68c57879d0467
+      internalID: 1324910656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_66
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1791
+        width: 136
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4b83a46b9f0cb45a09816ac6da2011
+      internalID: 527831942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_67
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1791
+        width: 96
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad01477b5e13c01429cc8e672b4f5252
+      internalID: 1476340727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_68
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1860
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2524b9dc7c8539945a27873078ffa94d
+      internalID: 821167547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_69
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1849
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa7319cc130f17459fc6831879ce9ea
+      internalID: -904760465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_70
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1837
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edc016498373ec4e8e2cf58fa18eb17
+      internalID: 286157348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_71
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1823
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d127184848d7aeb49a6effca5f00f6ab
+      internalID: 2118773573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_72
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1808
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3523b06cc58f4fb35a7c1f1443ec0
+      internalID: -363538522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_73
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1646
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b137d8142ad9d43b661d480f96245d
+      internalID: 1923976086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_74
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1642
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3727ac15d39594190b3061f8d9621d
+      internalID: 975188695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_75
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1526
+        width: 111
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c62f984d38a342903806f0dfb3dc0
+      internalID: -644186412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_76
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1529
+        width: 106
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908fbb65f2fdd68449c769645329f76d
+      internalID: 1524168187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_77
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1534
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7baf4934d6e2ba48b81ac597d50dc97
+      internalID: -895808055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_78
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1534
+        width: 143
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c76045783563a418ae16f058ec5c64
+      internalID: 1622225518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_79
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1534
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d658789362cf1b4087c35a410a7907b
+      internalID: -1864606510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_80
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1534
+        width: 115
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272115a28ad2fc14bb704b797a01768d
+      internalID: 991171946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_81
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1639
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e582d807f1c50a44e8eb77b7c21c0e63
+      internalID: 1451160867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_82
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1534
+        width: 113
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3b2f94e5dc67b4389af160f42d8f20
+      internalID: -1917364042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_83
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1526
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a3c9b98c049042b066b19a07a04b8
+      internalID: -590060827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_84
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1458
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4600fae368a142804207095e8d05a
+      internalID: 242176527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_85
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1307
+        width: 88
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d4340b7747e54f8e2badd64f607e4
+      internalID: -1989352880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_86
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1436
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e412cf14112c674bbeb8b129255d6ea
+      internalID: 488311157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_87
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1436
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ad85ea46b443498ff9da9606b27aa
+      internalID: 714525877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_88
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1313
+        width: 93
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29831453cf10f4d41b0b794953329bd7
+      internalID: 132911318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_89
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1313
+        width: 123
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b78e89e7281a2944847f0547b1d1cab
+      internalID: 1531091260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_90
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1305
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b708e582aaf796469dd92759bc00cbc
+      internalID: -780075848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_91
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1313
+        width: 115
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5938d7d1281cf34b967ed419d5f0f72
+      internalID: -223309831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_92
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1304
+        width: 121
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cef87a3271cde34e8a8c915c9a62c39
+      internalID: -634633508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_93
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1313
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697fddf53f13754b8b191c178707241
+      internalID: -126460534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_94
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1388
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44835ebc8f6f4ae4b859e597364fc353
+      internalID: -195685560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_95
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1370
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d648fbd77e1d14bbbe37a11eb06efd
+      internalID: 924341750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_96
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1352
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f48c37308ba5546b306f1476e1798a
+      internalID: 1354287071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_97
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1299
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724c06038981e994fa9c3426c291428f
+      internalID: 362588324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_98
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1305
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c9d7ea27de0bd4aacdfe63ea8f54f3
+      internalID: 671441687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_99
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1311
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c09a8b877687d45af87ba59bdc5058
+      internalID: -276132812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_100
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1306
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28437c8a7ce8ce94799ef30f2e480a6d
+      internalID: 2025322292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_101
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1135
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384fc15e82d48ac408efae33fe51a78b
+      internalID: 1313522824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1135
+        width: 106
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b439eea06cd0f04f9d1c98fa8ac1668
+      internalID: -1480530928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_103
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1135
+        width: 105
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185237ce38ea6a84f8cc7113513113b1
+      internalID: 1496927984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_104
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1135
+        width: 137
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444f39718d0401240a4124be77ca14e3
+      internalID: -1933276645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_105
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1246
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940667110f91a0041aa2c8ba88a48f37
+      internalID: 1478902312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_106
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1135
+        width: 145
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eac33d46828444fb14dfcf64c7e8a8
+      internalID: -126544248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_107
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1135
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657cb7ed725f3f141be4be400486d79e
+      internalID: 456266052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_108
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1135
+        width: 94
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d02aa229eb49644aa7ef86804fd10a
+      internalID: 615167129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_109
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1220
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2399e64514834e24c889e12a44e9e124
+      internalID: -465812061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_110
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1194
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69be222aa0a89b14e811315e4daf697d
+      internalID: 1078274134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_111
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f723f1a2c9b4b342935acea48f1802a
+      internalID: 1685580290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_112
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1148
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90216138c3da0e84a857c17380d447ff
+      internalID: -1791450949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_113
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 976
+        width: 97
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a09ab66ee398c46bfe9c62b3a48415
+      internalID: 2102125470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_114
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 976
+        width: 103
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dd9b6bdcb4c0b4b94180b4d6876f79
+      internalID: -1116428462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_115
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 976
+        width: 72
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ad7f4c2d87e98479c050afd633e805
+      internalID: -633127775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_116
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 974
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffa05fa4398f8047a755f86cbddc842
+      internalID: 538119438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_117
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1028
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb7a3052e79fc242a17160317c7adce
+      internalID: 356829852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_118
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 976
+        width: 108
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337d5a6276f06f04ba04c7bc751d039e
+      internalID: 671579784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_119
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 974
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32bf700a8f860a4c97f47ef14cf3a29
+      internalID: -1400150539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_120
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 975
+        width: 68
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef3d28fb78fa6146b6431549fb29d7d
+      internalID: -1480894163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_121
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1001
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e84bf58b22ea459643a5199fc7950
+      internalID: 922340108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_122
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 992
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210dbf02473aa2f45bbdf1a1ac90c471
+      internalID: 1012656733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_123
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 971
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aaf7e8ae0c2584bb0a6e937faf8f4e
+      internalID: -548971179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_124
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 834
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502a850b84517bd41b726ccefc3680ca
+      internalID: 1188528443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_125
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 802
+        width: 87
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022bbec88bb0bea468fbd234d232a254
+      internalID: 845114251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_126
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 802
+        width: 97
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0a03302f6403f47b21d0b00998b645
+      internalID: -1481300774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_127
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 802
+        width: 70
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6c4f2b93da2434d83abcafae74864f
+      internalID: -2128384042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_128
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 802
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0af7ed603730042b7b932c7c0a83c8
+      internalID: 1747540029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_129
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 802
+        width: 85
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d383b25d9af28469f7e187313a0895
+      internalID: 1115012224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_130
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 802
+        width: 101
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5f488efb993d747b12e1218fd0cfbf
+      internalID: -1474652644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_131
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 802
+        width: 74
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d19e77c5125a44aecb5f2e66bade8
+      internalID: -465331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_132
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 624
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef58f8c8537bba46ab91bcd9af9a483
+      internalID: -1562460133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_133
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 624
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bcf91bf85839043960ea0684f6a445
+      internalID: 571198138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_134
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 624
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d013f1402daf8e5468a4b2fbc4e6e490
+      internalID: 114338473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_135
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 624
+        width: 113
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a83829549d0c4e42b92533d34ac9fb9
+      internalID: -1664394200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_136
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 624
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba6292afc7420143bedd032ff464ad6
+      internalID: -1878725992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_137
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 465
+        width: 114
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda212f3d6b9a2242927f073ad52f2cf
+      internalID: 1212627844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_138
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 465
+        width: 114
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fecbf917ff80f448b1ac2b098f7b1a
+      internalID: 673143745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_139
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 465
+        width: 114
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e744eea84954b47ab4858dc5b140d1
+      internalID: 828775196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_140
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 465
+        width: 115
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f02823bed3088449c5bbf754b0a5d9
+      internalID: 1738139737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_141
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 465
+        width: 112
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d2a83ebbc4b44097014d31648910d
+      internalID: -828297183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_142
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 312
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86337ffd0c2acc498a774f48f53b63b
+      internalID: 813487247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_143
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 312
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a037451a036171640ad2ff836e95737a
+      internalID: -1186396860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_144
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 312
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc88848bc49870244906cae621516c10
+      internalID: 54804835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_145
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 312
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca11dccc6a6a942bbcf58c33bb3d54
+      internalID: -1668436811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_146
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 312
+        width: 111
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324757bf6ad18e0468a14310bf45fcd1
+      internalID: -748930540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_147
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 151
+        width: 111
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c02258a9661bb45be268961a435812
+      internalID: -1056810870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_148
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 151
+        width: 112
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168d2304d036e514fbd88d53fb830ad6
+      internalID: 334945260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_149
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 151
+        width: 113
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324ebf0e35f08c649a8ec44270bcfd1c
+      internalID: -1048674482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_150
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 151
+        width: 112
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d10b3feee230f44abb344927142b8d5
+      internalID: 829549096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_151
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 151
+        width: 112
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674bfaa9fca8ef04e98fec1d965a647d
+      internalID: -1079654930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_152
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9d0d53a39075942805b49910a52999
+      internalID: 2043031656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_153
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 113
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729a7a425e246b04882f0bb95f788b15
+      internalID: 1665295811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_154
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 113
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61822b0be9b2f9249aedb9779b79af67
+      internalID: 1285717804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_155
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c36a5fe8b8da014dae5bde26b26483f
+      internalID: 284677914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sora 2_156
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1831ad905d941458a240df29659a0f
+      internalID: 1037266754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sora 2_0: -1114220616
+      Sora 2_1: -1342149633
+      Sora 2_10: -839254991
+      Sora 2_100: 2025322292
+      Sora 2_101: 1313522824
+      Sora 2_102: -1480530928
+      Sora 2_103: 1496927984
+      Sora 2_104: -1933276645
+      Sora 2_105: 1478902312
+      Sora 2_106: -126544248
+      Sora 2_107: 456266052
+      Sora 2_108: 615167129
+      Sora 2_109: -465812061
+      Sora 2_11: -1055796487
+      Sora 2_110: 1078274134
+      Sora 2_111: 1685580290
+      Sora 2_112: -1791450949
+      Sora 2_113: 2102125470
+      Sora 2_114: -1116428462
+      Sora 2_115: -633127775
+      Sora 2_116: 538119438
+      Sora 2_117: 356829852
+      Sora 2_118: 671579784
+      Sora 2_119: -1400150539
+      Sora 2_12: -1230290877
+      Sora 2_120: -1480894163
+      Sora 2_121: 922340108
+      Sora 2_122: 1012656733
+      Sora 2_123: -548971179
+      Sora 2_124: 1188528443
+      Sora 2_125: 845114251
+      Sora 2_126: -1481300774
+      Sora 2_127: -2128384042
+      Sora 2_128: 1747540029
+      Sora 2_129: 1115012224
+      Sora 2_13: 187763762
+      Sora 2_130: -1474652644
+      Sora 2_131: -465331
+      Sora 2_132: -1562460133
+      Sora 2_133: 571198138
+      Sora 2_134: 114338473
+      Sora 2_135: -1664394200
+      Sora 2_136: -1878725992
+      Sora 2_137: 1212627844
+      Sora 2_138: 673143745
+      Sora 2_139: 828775196
+      Sora 2_14: -313080952
+      Sora 2_140: 1738139737
+      Sora 2_141: -828297183
+      Sora 2_142: 813487247
+      Sora 2_143: -1186396860
+      Sora 2_144: 54804835
+      Sora 2_145: -1668436811
+      Sora 2_146: -748930540
+      Sora 2_147: -1056810870
+      Sora 2_148: 334945260
+      Sora 2_149: -1048674482
+      Sora 2_15: -2026373298
+      Sora 2_150: 829549096
+      Sora 2_151: -1079654930
+      Sora 2_152: 2043031656
+      Sora 2_153: 1665295811
+      Sora 2_154: 1285717804
+      Sora 2_155: 284677914
+      Sora 2_156: 1037266754
+      Sora 2_16: -2116095904
+      Sora 2_17: 1521798976
+      Sora 2_18: 1104708627
+      Sora 2_19: 1307880441
+      Sora 2_2: 583719519
+      Sora 2_20: -387874541
+      Sora 2_21: 1715412716
+      Sora 2_22: -130308827
+      Sora 2_23: -152390941
+      Sora 2_24: 1016522146
+      Sora 2_25: 1820962624
+      Sora 2_26: 1999330490
+      Sora 2_27: -1753456452
+      Sora 2_28: -876551467
+      Sora 2_29: -1705572457
+      Sora 2_3: 845464709
+      Sora 2_30: 1278530342
+      Sora 2_31: 1390328143
+      Sora 2_32: -1861128312
+      Sora 2_33: 1631710072
+      Sora 2_34: -537545508
+      Sora 2_35: -1369454963
+      Sora 2_36: -670229419
+      Sora 2_37: 216317170
+      Sora 2_38: -499459186
+      Sora 2_39: -651612267
+      Sora 2_4: 1510368834
+      Sora 2_40: 1099055758
+      Sora 2_41: 769176733
+      Sora 2_42: -96337998
+      Sora 2_43: 1127061260
+      Sora 2_44: 580814686
+      Sora 2_45: -52869429
+      Sora 2_46: 498190989
+      Sora 2_47: -497086570
+      Sora 2_48: 1606158016
+      Sora 2_49: -1405977197
+      Sora 2_5: 1285558225
+      Sora 2_50: -1103588550
+      Sora 2_51: 1244513070
+      Sora 2_52: -60312026
+      Sora 2_53: -1129109011
+      Sora 2_54: -402288700
+      Sora 2_55: 100979232
+      Sora 2_56: -1918002585
+      Sora 2_57: -149306077
+      Sora 2_58: 309663618
+      Sora 2_59: -1870693848
+      Sora 2_6: 450214550
+      Sora 2_60: 829071691
+      Sora 2_61: -100231870
+      Sora 2_62: 1099345641
+      Sora 2_63: 1857698428
+      Sora 2_64: -1715589840
+      Sora 2_65: 1324910656
+      Sora 2_66: 527831942
+      Sora 2_67: 1476340727
+      Sora 2_68: 821167547
+      Sora 2_69: -904760465
+      Sora 2_7: -1280227778
+      Sora 2_70: 286157348
+      Sora 2_71: 2118773573
+      Sora 2_72: -363538522
+      Sora 2_73: 1923976086
+      Sora 2_74: 975188695
+      Sora 2_75: -644186412
+      Sora 2_76: 1524168187
+      Sora 2_77: -895808055
+      Sora 2_78: 1622225518
+      Sora 2_79: -1864606510
+      Sora 2_8: -1799633480
+      Sora 2_80: 991171946
+      Sora 2_81: 1451160867
+      Sora 2_82: -1917364042
+      Sora 2_83: -590060827
+      Sora 2_84: 242176527
+      Sora 2_85: -1989352880
+      Sora 2_86: 488311157
+      Sora 2_87: 714525877
+      Sora 2_88: 132911318
+      Sora 2_89: 1531091260
+      Sora 2_9: -469000974
+      Sora 2_90: -780075848
+      Sora 2_91: -223309831
+      Sora 2_92: -634633508
+      Sora 2_93: -126460534
+      Sora 2_94: -195685560
+      Sora 2_95: 924341750
+      Sora 2_96: 1354287071
+      Sora 2_97: 362588324
+      Sora 2_98: 671441687
+      Sora 2_99: -276132812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Main/Scenes/UI 2.unity
     guid: 91087b2b81d03a7468e1ba019357ac4d
+  - enabled: 1
+    path: Assets/_Main/Scenes/PLATAFORMERO.unity
+    guid: 46b68f1f017b6ca47bc7c70603580ad4
   m_configObjects: {}

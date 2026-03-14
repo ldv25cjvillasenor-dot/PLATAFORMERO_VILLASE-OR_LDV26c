@@ -25,6 +25,6 @@ public class SceneTransition : MonoBehaviour
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene(_sceneName);
+        SceneManager.LoadScene("PLATAFORMERO");
     }
 }

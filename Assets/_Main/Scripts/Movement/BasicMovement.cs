@@ -1,65 +1,60 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BasicMovement : MonoBehaviour
 {
-    public float speedMovement = 5.0f;
+    public float speedMovement = 5f;
+    public float jumpForce = 8f;
 
-    bool Up;
-    bool Down;
-    bool Left;
-    bool Right;
+    Rigidbody2D rb;
+    Animator anim;
 
-    Vector3 direccion = Vector3.zero;
+    float moveX;
+    bool isGrounded;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
-        // Resetear todo cada frame
-        Up = false;
-        Down = false;
-        Left = false;
-        Right = false;
+        moveX = Input.GetAxisRaw("Horizontal");
 
-        direccion = Vector3.zero;
-
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            Up = true;
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            Down = true;
-        }
+        float yDirection = 0;
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            Left = true;
-        }
+        if (rb.velocity.y > 0.1f)
+            yDirection = 1;
+        else if (rb.velocity.y < -0.1f)
+            yDirection = -1;
 
-        if (Input.GetKey(KeyCode.D))
-        {
-            Right = true;
-        }
+        anim.SetFloat("Xpoint", moveX);
+        anim.SetFloat("Ypoint", yDirection);
+    }
 
-        if (Up)
-        {
-            direccion = new Vector3(0, 1, 0);
-        }
-        else if (Down)
-        {
-            direccion = new Vector3(0, -1, 0);
-        }
-        else if (Left)
-        {
-            direccion = new Vector3(-1, 0, 0);
-        }
-        else if (Right)
-        {
-            direccion = new Vector3(1, 0, 0);
-        }
+    void FixedUpdate()
+    {
+        rb.velocity = new Vector2(moveX * speedMovement, rb.velocity.y);
+    }
 
-        transform.position += direccion * speedMovement * Time.deltaTime;
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 }

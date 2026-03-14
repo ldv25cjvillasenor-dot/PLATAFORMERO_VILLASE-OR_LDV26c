@@ -6046,6 +6046,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5076685640691965294, guid: 85ebf220d5898a4448f77677e7570d81, type: 3}
+      propertyPath: m_Text
+      value: KINGDOM HEARTS PLATAFORMER
+      objectReference: {fileID: 0}
     - target: {fileID: 7342143959515174467, guid: 85ebf220d5898a4448f77677e7570d81, type: 3}
       propertyPath: sceneTransition
       value: 

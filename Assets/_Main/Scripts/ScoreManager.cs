@@ -1,11 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
 
-    public int score = 0;
     public TextMeshProUGUI scoreText;
 
     void Awake()
@@ -18,14 +17,14 @@ public class ScoreManager : MonoBehaviour
         UpdateScore();
     }
 
-    public void AddScore(int points)
+    void Update()
     {
-        score += points;
+        
         UpdateScore();
     }
 
     void UpdateScore()
     {
-        scoreText.text = "Puntos: " + score;
+        scoreText.text = "Puntos: " + Vida.coins;
     }
 }

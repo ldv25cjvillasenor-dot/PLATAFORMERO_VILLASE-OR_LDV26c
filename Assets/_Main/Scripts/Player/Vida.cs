@@ -1,14 +1,25 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Vida : MonoBehaviour
 {
+    
+    public static int coins = 0;
+
+    public static void AddCoins(int amount)
+    {
+        coins += amount;
+        Debug.Log("Coins: " + coins);
+    }
+
+    
+
     public int Vidas = 1;
     public int coinPoints = 10;
 
-    public float FuerzaRepelenteDaño = 10f;
-    public Vector3 DireccionRepelenteDaño = new Vector3(0, -1, 0);
+    public float FuerzaRepelenteDaÃ±o = 10f;
+    public Vector3 DireccionRepelenteDaÃ±o = new Vector3(0, -1, 0);
 
     public Transform spawnPoint;
 
@@ -42,7 +53,7 @@ public class Vida : MonoBehaviour
         if (collision.gameObject.CompareTag("EnvironmentDamage"))
         {
             Vidas -= 1;
-            GetComponent<Rigidbody2D>().AddForce(DireccionRepelenteDaño * FuerzaRepelenteDaño, ForceMode2D.Impulse);
+            GetComponent<Rigidbody2D>().AddForce(DireccionRepelenteDaÃ±o * FuerzaRepelenteDaÃ±o, ForceMode2D.Impulse);
         }
     }
 
@@ -50,9 +61,10 @@ public class Vida : MonoBehaviour
     {
         if (collider2D.CompareTag("ItemVida"))
         {
-            ScoreManager.instance.AddScore(coinPoints);
+            AddCoins(coinPoints); 
 
-            coinSound.Play();
+            if (coinSound != null)
+                coinSound.Play();
 
             Destroy(collider2D.gameObject);
         }

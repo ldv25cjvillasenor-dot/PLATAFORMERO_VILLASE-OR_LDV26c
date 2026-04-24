@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 165630eebd87bd14a9361fc601a7dc56
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - thundaregaPrefab: {fileID: 1053400503578924760, guid: 5d41cba4076f84a4ba4a64f525c6af2f, type: 3}
+  - spawnPoint1: {instanceID: 0}
+  - spawnPoint2: {instanceID: 0}
+  - spawnPoint3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

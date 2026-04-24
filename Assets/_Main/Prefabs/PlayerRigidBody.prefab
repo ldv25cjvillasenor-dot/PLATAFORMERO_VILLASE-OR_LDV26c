@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1207568318457478967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5782094993029439086}
+  m_Layer: 0
+  m_Name: SpawnPointThundaga (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5782094993029439086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207568318457478967}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.66, y: 0.832, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4432993850226899262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4948377171149188667
 GameObject:
   m_ObjectHideFlags: 0
@@ -16,6 +47,9 @@ GameObject:
   - component: {fileID: 8032777108757198362}
   - component: {fileID: 4470627568114582388}
   - component: {fileID: 2521739121753854268}
+  - component: {fileID: 936437655885583457}
+  - component: {fileID: 5257604739368174953}
+  - component: {fileID: 688901208320779712}
   - component: {fileID: 6977728073792306554}
   m_Layer: 0
   m_Name: PlayerRigidBody
@@ -38,6 +72,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3513360801309565409}
+  - {fileID: 8989270412098321780}
+  - {fileID: 6745108085323558218}
+  - {fileID: 8979432650784384438}
+  - {fileID: 5782094993029439086}
+  - {fileID: 8145093534339705291}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6024883388893175291
@@ -151,7 +190,7 @@ MonoBehaviour:
   "FuerzaRepelenteDa\xF1o": 10
   "DireccionRepelenteDa\xF1o": {x: 0, y: -1, z: 0}
   spawnPoint: {fileID: 0}
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 6977728073792306554}
 --- !u!114 &8032777108757198362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +271,62 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.93, y: 1.5703624}
   m_EdgeRadius: 0
+--- !u!114 &936437655885583457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4948377171149188667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6d9fc80bca93b4b80d9d736b2a3bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firagaPrefab: {fileID: 4807796128760372108, guid: eaf6bef524725804ab75efbd2eeef335, type: 3}
+  spawnPoint: {fileID: 8989270412098321780}
+  distancia: 1
+  tiempoVida: 3
+  tiempoEntreDisparos: 0.8
+  tagsDestruir:
+  - Ground
+--- !u!114 &5257604739368174953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4948377171149188667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165630eebd87bd14a9361fc601a7dc56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thundaregaPrefab: {fileID: 1053400503578924760, guid: 5d41cba4076f84a4ba4a64f525c6af2f, type: 3}
+  spawnPoint1: {fileID: 8979432650784384438}
+  spawnPoint2: {fileID: 5782094993029439086}
+  spawnPoint3: {fileID: 8145093534339705291}
+  distancia: 1
+  tiempoVida: 1
+  tiempoEntreRayos: 0.3
+  cooldown: 1
+--- !u!114 &688901208320779712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4948377171149188667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3221c93eea8f92743a05624e6d17b647, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezePrefab: {fileID: 8587922175565786088, guid: 104e88ebc5bef9e408b3d293e4208128, type: 3}
+  spawnPoint: {fileID: 6745108085323558218}
+  distancia: 1
+  tiempoEntreDisparos: 0.5
+  tiempoVida: 3
 --- !u!82 &6977728073792306554
 AudioSource:
   m_ObjectHideFlags: 0
@@ -241,10 +336,10 @@ AudioSource:
   m_GameObject: {fileID: 4948377171149188667}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  OutputAudioMixerGroup: {fileID: -1451632039802707203, guid: 55316205d43759a4c9e09d5e5b0acb82, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 564df34484e58f5468993fadb1ecb920, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.396
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -465,3 +560,127 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &5819061728232504823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6745108085323558218}
+  m_Layer: 0
+  m_Name: SpawnPointFreeze
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6745108085323558218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819061728232504823}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.3481522, w: 0.9374381}
+  m_LocalPosition: {x: 0.565, y: 0.050000012, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4432993850226899262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -40.749}
+--- !u!1 &6224876003141336196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8979432650784384438}
+  m_Layer: 0
+  m_Name: SpawnPointThundaga
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8979432650784384438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6224876003141336196}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.021, y: 0.832, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4432993850226899262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7273775142890646938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8145093534339705291}
+  m_Layer: 0
+  m_Name: SpawnPointThundaga (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8145093534339705291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273775142890646938}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.239, y: 0.832, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4432993850226899262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7871609403398421858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8989270412098321780}
+  m_Layer: 0
+  m_Name: SpawnPointFiraga
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8989270412098321780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7871609403398421858}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.68, y: 0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4432993850226899262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
